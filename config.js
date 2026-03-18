@@ -6,10 +6,10 @@ function convertToBool(text, fault = "true") {
   return text === fault ? true : false;
 }
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || "Yf1XzAAa#duBbCz5aIoxo7W0os1WdYitucc0UUpXmhZT7Wyi7Sd8",
-  OWNER_NUM: process.env.OWNER_NUM || "94789086040",
+  SESSION_ID: process.env.SESSION_ID || "aqwwHTTY#8uEMXT52lt3zvZ1lwVZkFH62nOE0FqVo7gRkpmsoeD0",
+  OWNER_NUM: process.env.OWNER_NUM || "94701332157",
   PREFIX: process.env.PREFIX || ".",
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/VYHLZ8Cv/my-data.jpg",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://github.com/Nethmina-dev/BOT-DATA/blob/main/Logo/ChatGPT%20Image%20Mar%2018,%202026,%2005_47_58%20PM.png?raw=true",
   ALIVE_MSG: process.env.ALIVE_MSG || "Hello , I am alive now!!\n\n> NETHMINA OFC WA-BOT",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   MODE: process.env.MODE || "inbox",
